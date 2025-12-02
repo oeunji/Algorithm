@@ -22,9 +22,22 @@
 		B6A9CF502EDF241E000344F3 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B6A9CF5D2EDF2722000344F3 /* Exceptions for "Algorithm" folder in "Algorithm" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				"Level0/두_수의_차_구하기.swift" = (macos, );
+			};
+			target = B6A9CF4F2EDF241E000344F3 /* Algorithm */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B6A9CF522EDF241E000344F3 /* Algorithm */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B6A9CF5D2EDF2722000344F3 /* Exceptions for "Algorithm" folder in "Algorithm" target */,
+			);
 			path = Algorithm;
 			sourceTree = "<group>";
 		};

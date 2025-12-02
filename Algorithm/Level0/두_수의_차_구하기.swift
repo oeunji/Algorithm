@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  두_수의_차_구하기.swift
 //  Algorithm
 //
 //  Created by 이은지 on 12/2/25.
@@ -8,5 +8,5 @@
 import Foundation
 
 private func solution(_ num1:Int, _ num2:Int) -> Int {
-    return num1 * num2
+    return num1 - num2
 }
