@@ -7,6 +7,17 @@
 
 import Foundation
 
-private func solution(_ num1:Int, _ num2:Int) -> Int {
-    return num1 + num2
+private func solution(_ numer1:Int, _ denom1:Int, _ numer2:Int, _ denom2:Int) -> [Int] {
+    let first = (Double(numer1) / Double(denom1))
+    let second = (Double(numer2) / Double(denom2))
+    
+    print(first)
+    print(second)
+    
+    let answer = first + second
+    print(answer)
+    
+    return []
 }
+
+solution(1, 2, 3, 4)
