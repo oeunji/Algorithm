@@ -7,7 +7,6 @@
 
 import Foundation
 
-private func solution(_ num_list:[Int]) -> [Int] {
-    
-    return []
+private func solution(_ num1:Int, _ num2:Int) -> Int {
+    return num1 % num2
 }
