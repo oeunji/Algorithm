@@ -7,13 +7,11 @@
 
 import Foundation
 
-private func solution(_ n:Int) -> Int {
-    var person = n
+private func solution(_ message:String) -> Int {
     var count = 0
     
-    while person > 0 {
-        person -= 7
-        count += 1
+    for i in message {
+        count = count + 2
     }
     
     return count
