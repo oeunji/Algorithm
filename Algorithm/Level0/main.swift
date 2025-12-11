@@ -7,10 +7,6 @@
 
 import Foundation
 
-private func solution(_ numbers:[Int]) -> Int {
-    
-    var array = numbers
-    array.sort(by: >)
-        
-    return array[0] * array[1]
+private func solution(_ sides:[Int]) -> Int {
+    return 0
 }
