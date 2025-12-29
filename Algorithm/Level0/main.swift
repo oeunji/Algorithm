@@ -7,15 +7,6 @@
 
 import Foundation
 
-private func solution(_ n:Int) -> Int {
-    
-    var result = 0
-    
-    for i in 1...n {
-        if n % i == 0 {
-            result = result + 1
-        }
-    }
-    
-    return result
+private func solution(_ str1:String, _ str2:String) -> Int {
+    return 0
 }
