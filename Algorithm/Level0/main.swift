@@ -7,11 +7,12 @@
 
 import Foundation
 
-private func solution(_ array:[Int]) -> Int {
+private func solution(_ n:Int) -> Int {
     
-    let center = array.count / 2 + 1
+    var result = 0
+    var n = n
     
-    var array = array.sorted()
+    if n == 6 { return 1 }
     
-    return array[center]
+    return result
 }
