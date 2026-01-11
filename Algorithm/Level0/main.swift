@@ -7,17 +7,6 @@
 
 import Foundation
 
-private func solution(_ n:Int) -> Int {
-    
-    var result = 0
-    var n = n
-    
-    while(true) {
-        result = result + 1
-        if (result * 6) % n == 0 {
-            break
-        }
-    }
-    
-    return result
+private func solution(_ str1:String, _ str2:String) -> Int {
+    return 0
 }
