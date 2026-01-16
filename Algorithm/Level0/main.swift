@@ -7,19 +7,13 @@
 
 import Foundation
 
-private func solution(_ price: Int) -> Int {
-    let priceDouble = Double(price)
-    
-    if priceDouble >= 500000 {
-        return Int(priceDouble * 0.8)
+private var n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
+
+let length = n.popLast()
+
+for i in 1...length! {
+    for j in 1...i {
+        print("*", terminator: "")
     }
-    else if priceDouble >= 300000 {
-        return Int(priceDouble * 0.9)
-    }
-    else if priceDouble >= 100000 {
-        return Int(priceDouble * 0.95)
-    }
-    else {
-        return price
-    }
+    print()
 }
