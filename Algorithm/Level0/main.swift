@@ -7,13 +7,7 @@
 
 import Foundation
 
-private var n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
-
-let length = n.popLast()
-
-for i in 1...length! {
-    for j in 1...i {
-        print("*", terminator: "")
-    }
-    print()
+private func solution(_ my_string:String, _ n:Int) -> String {
+    
+    return ""
 }
