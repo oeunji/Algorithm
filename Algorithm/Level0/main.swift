@@ -7,15 +7,6 @@
 
 import Foundation
 
-private func solution(_ array:[Int], _ n:Int) -> Int {
-    
-    var result = 0
-    
-    for i in 0...array.count - 1 {
-        if array[i] == n {
-            result = result + 1
-        }
-    }
-    
-    return result
+private func solution(_ emergency:[Int]) -> [Int] {
+    return []
 }
