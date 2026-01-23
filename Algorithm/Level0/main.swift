@@ -7,6 +7,6 @@
 
 import Foundation
 
-private func solution(_ emergency:[Int]) -> [Int] {
+private func solution(_ my_string:String) -> [Int] {
     return []
 }
